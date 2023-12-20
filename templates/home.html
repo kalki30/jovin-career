@@ -15,8 +15,9 @@
     </style>
   </head>
   <body> 
+    {% include 'nav.html' %}
     <div class="container">
-      <h1 class="text-center mt-2 mt-4">Jovian Careers</h1>
+      <h1 class="text-center mt-2 mt-4">Sk Careers</h1>
       <img class='img-fluid' id='banner'src ='https://jovin-career--shivam97165.repl.co/static/banner.jpeg.jpg' width='80%'>
       <h2 class="text-center mt-2 mt-4">About Jovian </h2>
 
@@ -24,7 +25,9 @@
       <h2 class="text-center mt-0 mb-4">open positions</h2>
       <div class="text-center mb-4">
         <button class="btn btn-primary btn-lg "  >Contact Us</button>
-      </div>  
+        
+      </div>
+      {% include 'footer.html' %}
       
     </div>
     
